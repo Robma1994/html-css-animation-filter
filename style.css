@@ -96,7 +96,8 @@
     height: 20px;
     width: 20px;
 }
-/*Fine 6*/
+/*Fine 5*/
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
     transition: filter;
@@ -121,12 +122,30 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition:transform 4s ease, border-radius 4s ease;
 }
+
+.ex-9-img:hover{
+    -webkit-transform: scale(1.5);
+    border-radius: 10% 10%;
+}
+/*Fine 8*/
+
 .ex-10-icon {
     font-size: 60px;
+    transition: transform 4s;
 }
+.ex-10-icon {
+    transform: rotate(400deg);;
+}
+
 .ex-11-icon {
     font-size: 60px;
+    transition: transform 4s;
+}
+
+.ex-11-icon:hover {
+    transform: rotate(-400deg);
 }
 .ex-12-button, .ex-13-button {
     position: relative;
